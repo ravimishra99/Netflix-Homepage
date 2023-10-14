@@ -38,13 +38,31 @@
     
 }
 .navbtn1{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.463);
   font-size:15px;
     color: white;
     width: 120px;
     height: 35px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 5px;
+    position: relative;
 }
 
+.down-btn{
+    position: absolute;
+  top: 45%;
+  padding-left: 10px;
+  
+}
+.language{
+    position:absolute;
+    left: 10px;
+}
+.top-right{
+    display: flex;
+    gap: 26px;
+}
 .navbtn2{
     width: 70px;
     height: 35px;
@@ -79,6 +97,7 @@
     background:transparent;
     border: 1px solid #fff;
     border-radius: 5px;
+    padding-left: 10px;
     background-image:linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7));
 }
 
@@ -100,6 +119,12 @@
 .button1:hover{
     background-color: rgba(223, 25, 25, 0.926);
 
+}
+
+.get-started{
+    position:absolute;
+    top: 23%;
+    right: 8%;
 }
 
 .input1{
